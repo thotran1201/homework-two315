@@ -1,0 +1,201 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: OswaldBold;
+    src: url(../fonts/Oswald/static/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoNormal;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayBall;
+    src: url(../fonts/Playball/Playball-Regular.ttf);
+}
+
+@font-face {
+    font-family: BickhamCursive;
+    src: url(../fonts/bickham-script-pro/BickhamScriptPro-Regular.otf);
+}
+
+.welcome-introduction {
+    margin-top: 55px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.welcome-introduction h1 {
+    color: white;
+    font-family: Playball;
+    font-size: 40px;
+}
+
+.home-paragraph {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.home-paragraph p {
+    color: white;
+    font-family: RobotoNormal;
+    font-size: 33px;
+}
+
+.home-paragraph b {
+    color: #FF0000;
+}
+
+.featured {
+    text-align: center;
+    font-size: 90px;
+    padding-top: 56px;
+}
+
+.featured p {
+    color: white;
+    font-family: BickhamCursive;
+}
+
+.featured-section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.setting-name {
+    padding-top: 460px;
+}
+
+.about-title {
+    padding-top: 15px;
+}
+
+.about-title b {
+    font-family: BickhamCursive;
+    color: #FF0000
+}
+
+.about-title p {
+    font-family: BickhamCursive;
+    color: white;
+    font-size: 56px;
+    margin-left: 100px;
+}
+
+.about-paragraph {
+    margin-top: 80px;
+    padding-left: 60px;
+}
+
+.about-paragraph p {
+    color: white;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+.characters-title {
+    margin-left: 100px;
+    padding-top: 15px;
+}
+
+.characters-title p {
+    color: white;
+    font-family: BickhamCursive;
+    font-size: 56px;
+}
+
+.characters-title b {
+    color: #FF0000;
+}
+
+.show-title {
+    margin-left: 100px;
+}
+
+.show-title p {
+    color: #DB00D4;
+    font-family: BickhamCursive;
+    font-size: 55px;
+}
+
+.originalsin-title {
+    margin-left: 100px;
+    padding-top: 440px;
+}
+
+.originalsin-title p {
+    color: #FF0000;
+    font-family: BickhamCursive;
+    font-size: 55px;
+}
+
+.characters-section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-right: 100px;
+}
+
+.character-name {
+    padding-top: 460px;
+    text-align: center;
+}
+
+.characters-section-two {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 430px;
+    height: 30px;
+}
+
+.sequence-of-events-title {
+    margin-left: 100px;
+}
+
+.sequence-of-events-title p {
+    color: white;
+    font-family: BickhamCursive;
+    font-size: 55px;
+}
+
+.mysteries-section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-right: 100px;
+}
+
+.series-title {
+    margin-left: 100px;
+}
+
+.series-title p {
+    color: #DB00D4;
+    font-family: BickhamCursive;
+    font-size: 55px;
+}
+
+.mysteries-name {
+    padding-top: 460px;
+    text-align: center;
+}
+
